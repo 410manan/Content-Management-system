@@ -1,0 +1,25 @@
+{
+  "user_information": [
+    {
+      "index_fields": ["Name", "Age"],
+      "index_options": {
+        "unique": false,
+        "name": "compound_index_1"
+      }
+    }    
+  ],
+  "user_personal_info": [
+    {
+      "index_fields": ["Contact number"],
+      "index_options": {
+        "unique": true
+      }
+    },
+    {
+      "index_fields": ["Gender", "Marital Status"],
+      "index_options": {
+        "name": "compound_index_2"
+      }
+    }
+  ]
+}
